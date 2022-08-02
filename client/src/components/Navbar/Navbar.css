@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #C8B6FF;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #10002B;
+}
+
+.leftBox {
+  padding-left: 25px;
+}
+
+.rightBox {
+  display: flex;
+  padding-right: 25px;
+  align-items: center;
+}
+
+.rightBox>h2 {
+  margin-right: 20px;
+}
+
+.searchBox {
+  display: flex;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.6;
+}
+
+.searchBox:hover {
+  opacity: 0.75;
+}
+
+.searchBox>input {
+  background-color: transparent;
+  border: none;
+  margin-left: 3px;
+  color: #10002B;
+}
+
+.searchBox>input:focus {
+  outline: none;
+}

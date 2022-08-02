@@ -3,6 +3,7 @@ import { Grid } from '@mui/material'
 import Navbar from "./components/Navbar/Navbar"
 import Map from "./components/Map/Map"
 import List from "./components/List/List"
+import './App.css'
 
 const App = () => {
   return (
